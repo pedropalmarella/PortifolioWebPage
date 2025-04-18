@@ -84,6 +84,7 @@ nav {
 .call-to-action:hover {
   transform: scale(1.1);
 }
+
 /* HOME END */
 
 /* ABOUT START */
@@ -208,4 +209,75 @@ footer a {
   text-decoration: none;
   margin-right: 12px;
 }
+
 /* FOOTER END */
+
+/* RESPONSIVITY */
+
+@media (max-width: 1050px) {
+
+  /* MAIN START */
+  .main h1 {
+    font-size: 45px;
+  }
+
+  .main p {
+    font-size: 18px;
+  }
+
+  .main {
+    background-size: cover;
+  }
+
+  /* MAIN END */
+
+  /* ABOUT START */
+  .sobre {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .sobre div {
+    max-width: 80%;
+  }
+
+  .sobre div h2 {
+    font-size: 45px;
+  }
+
+  .sobre img {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  /* ABOUT END */
+
+  /* PROJECTS START */
+  .projetos img {
+    width: 27.5%;
+  }
+
+  /* PROJECTS END */
+
+  /* FOOTER START */
+  footer {
+    flex-direction: column;
+    background-color: #000;
+  }
+
+  footer h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  /* FOOTER END */
+
+}
