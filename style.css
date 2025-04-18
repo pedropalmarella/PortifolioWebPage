@@ -51,7 +51,7 @@ nav {
   background-color: #000;
   background-image: url(/PortifolioWebPage/assets/programador.png);
   width: 100%;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 80px);
   display: flex;
   align-items: center;
   padding-left: 10%;
@@ -147,6 +147,11 @@ nav {
   margin-bottom: 40px;
 }
 
+.project-list {
+  display: flex;
+  justify-content: center;
+}
+
 .project-list img {
   max-width: 300px;
   margin: 2px;
@@ -216,6 +221,14 @@ footer a {
 
 @media (max-width: 1050px) {
 
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin-right: 0px;
+  }
+
   /* MAIN START */
   .main h1 {
     font-size: 45px;
@@ -257,8 +270,13 @@ footer a {
   /* ABOUT END */
 
   /* PROJECTS START */
+
+  .projetos {
+    padding: 80px 2.5%;
+  }
+
   .projetos img {
-    width: 27.5%;
+    max-width: 30%;
   }
 
   /* PROJECTS END */
