@@ -49,7 +49,7 @@ nav {
 /* HOME START */
 .main {
   background-color: #000;
-  background-image: url(../assets/programador.png);
+  background-image: url(./assets/programador.png);
   width: 100%;
   height: calc(100vh - 50px);
   display: flex;
